@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Load frontend and backend route files
+require __DIR__ . '/frontend.php';
+require __DIR__ . '/backend.php';
